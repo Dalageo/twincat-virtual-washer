@@ -1,8 +1,8 @@
-<div align="left">
+<div align="center">
   <img src="https://github.com/user-attachments/assets/0d62ee59-bee5-4ca9-823c-5f045ca780e5" alt="Bechoff TwinCat" width="700"/>
 </div>
 
-<div align="left">
+<div align="center">
   <a href="https://www.beckhoff.com/en-en/products/automation/twincat/" target="_blank">
     <img src="https://img.shields.io/badge/TwinCAT-3.1.4024.55-blue" alt="TwinCAT 3.1.4024.55"></a>
   <a href="https://github.com/Dalageo/TwinCat-VirtualWasher/blob/main/LICENSE" target="_blank">
@@ -22,9 +22,10 @@ This repository contains a simulation project for a Washing Machine System, deve
 - **Water Draining**: When the washing cycle ends, the machine drains all the water until the drum is empty.
 - **Cycle Completion and Restart**: Upon completing a cycle, the program waits for user input. If the *PULS* button is pressed, the cycle repeats continuously until the button is released.
 
-| Washer | 
-|-----|
-| ![Washer](https://github.com/user-attachments/assets/8ca00285-1202-4bf2-b5be-3040479dc957) | 
+<div align="center">
+  <h3>Washer</h3>
+  <img src="https://github.com/user-attachments/assets/8ca00285-1202-4bf2-b5be-3040479dc957" alt="Washer" />
+</div>
 
 ## Setup Instructions
 
@@ -55,21 +56,24 @@ This project was part of a master course assignment at [University West](https:/
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was chosen to prevent commercial use and to promote free access and open collaboration, ensuring any adaptations remain freely available to everyone.
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+<div align="center">
+  <br>
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+    <img src="https://github.com/user-attachments/assets/66ee5a84-1749-44af-9be4-68365c3e62ce" width="170">
+  </a>
+</div>
 
 ## Citation
 
 ```bibtex
-@software{Dalageorgos_TwinCAT-VirtualWasher_2024,
-author = {Dalageorgos, Konstantinos},
-license = {CC-BY-NC-SA-4.0},
-month = jul,
-title = {{TwinCAT-VirtualWasher}},
-url = {https://github.com/Dalageo/TwinCAT-VirtualWasher},
-version = {1.0.0},
-year = {2024}
+@software{Dalageorgos_twincat-virtual-washer_2024,
+  author = {Dalageorgos, Konstantinos},
+  title = {twincat-virtual-washer},
+  publisher = {GitHub},
+  year = {2024},
+  month = {July},
+  version = {1.0.0},
+  url = {https://github.com/Dalageo/twincat-virtual-washer},
+  license = {CC-BY-NC-SA-4.0},
+  note = {Source code repository},
 }
