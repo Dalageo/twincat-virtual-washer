@@ -34,7 +34,7 @@ This repository contains a simulation project for a Washing Machine System, deve
    
 2. **Clone the repository:**
    ```sh
-   git clone https://github.com/Dalageo/TwinCAT-VirtualWasher.git
+   git clone https://github.com/Dalageo/twincat-virtual-washer.git
    
 3. **Navigate to the cloned directory and execute the 'TwinCAT Virtual Washer.sln' solution file.**
 
